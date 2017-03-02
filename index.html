@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="import" href="dist/exercise-form.html">
+	</head>
+
+	<body>
+
+		<exercise-form on-response=""></exercise-form>
+
+		<script>
+			$ ( 'exercise-form' ).first ( ).on ( 'response', function ( event, data )
+			{
+				$ ( 'exercise-form' ).hide ( );
+			} );
+		</script>
+	</body>
+</html>

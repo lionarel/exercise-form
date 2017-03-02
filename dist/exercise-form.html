@@ -1,0 +1,15 @@
+
+<link rel="import" href="./imports.html"/>
+<link rel="import" href="./exercise-form-styles.html"/>
+<dom-module id="exercise-form">
+  <style is="custom-style" include="exercise-form-styles"></style>
+  <template>
+    <h2>Describe an exercise</h2>
+    <form is="iron-form" action="[[ action ]]" method="[[ method ]]">
+      <paper-input label="Exercise name" name="exercise.name" allowed-pattern="[a-zA-Z ]+" required="required" auto-validate="auto-validate" error-message="The exercise name is required."></paper-input>
+      <paper-button raised="raised" on-tap="describe" disabled="disabled">Describe exercise</paper-button>
+    </form>
+  </template>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="./exercise-form.js"></script>
+</dom-module>

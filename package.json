@@ -1,0 +1,17 @@
+{
+  "name": "exercise-form",
+  "version": "0.0.1",
+  "description": "Polymer exercise form",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.3",
+    "gulp-polymerize-css": "^0.0.1",
+    "gulp-pug": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "require-dir": "^0.3.1"
+  }
+}

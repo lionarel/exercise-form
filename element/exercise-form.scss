@@ -1,0 +1,14 @@
+@import '../vendor/sass-material-colors/sass/sass-material-colors';
+
+body, h1, h2, h3, h4, h5, h6 {
+	@apply(--paper-font-common-base);
+}
+
+paper-button {
+	// background-color: material-color( 'blue', '500' )
+}
+
+paper-input {
+	--paper-input-container-focus-color: material-color( 'blue', '400' );
+	margin-bottom: 20px;
+}

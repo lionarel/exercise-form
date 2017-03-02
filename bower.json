@@ -1,0 +1,17 @@
+{
+  "name": "exercise-form",
+  "authors": [
+    "Aron Wouters"
+  ],
+  "dependencies": {
+    "app-layout": "*",
+    "iron-elements": "*",
+    "neon-elements": "*",
+    "paper-elements": "*"
+  },
+  "devDependencies": {
+    "sass-material-colors": "^0.0.5"
+  },
+  "private": true,
+  "ignore": [ "element", "node_modules", "tasks", "temp", "vendor", ".bowerrc", ".gitignore", "gulpfile.js", "package.json", "yarn.lock" ]
+}

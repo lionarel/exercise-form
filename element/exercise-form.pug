@@ -1,0 +1,13 @@
+link( rel='import' href='./imports.html' )
+link( rel='import' href='./exercise-form-styles.html' )
+
+dom-module( id='exercise-form' )
+	style( is='custom-style' include='exercise-form-styles' )
+	template
+		h2 Describe an exercise
+
+		form( is='iron-form', action='[[ action ]]' method='[[ method ]]' )
+			paper-input( label='Exercise name' name='exercise.name' allowed-pattern="[a-zA-Z ]+" required auto-validate error-message='The exercise name is required.' )
+			paper-button( raised on-tap='describe' disabled ) Describe exercise
+			
+	script( src='./exercise-form.js' )
