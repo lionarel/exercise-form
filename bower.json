@@ -3,6 +3,7 @@
   "authors": [
     "Aron Wouters"
   ],
+  "version": "0.0.2",
   "dependencies": {
     "app-layout": "*",
     "iron-elements": "*",
